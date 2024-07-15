@@ -1,1 +1,81 @@
-Hello World
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人開発アプリ 紹介サイト</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #00bfff;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+            padding-bottom: 60px; /* フッターの高さ分のパディングを追加 */
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            left: 0; /* フッターが画面の左端に固定されるように修正 */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>個人開発アプリ 紹介サイト</h1>
+    </header>
+    <nav>
+        <a href="#about">自己紹介</a>
+        <a href="#application">アプリ</a>
+        <a href="#sns">SNS　</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>自己紹介</h2>
+            <p>寒河江 彪流（Sagae Takeru）</p>
+            <p>iPhoneアプリの個人開発をしています。</p>
+        </section>
+        <section id="application">
+            <h2>アプリ</h2>
+            <p>アプリは開発中です</p>
+        </section>
+        <section id="sns">
+            <h2>SNS</h2>
+            <a href="https://x.com/ta_s11152" target="_blank"　rel="noopener noreferrer">X(旧Twitter) (ta_s11152)</a>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 寒河江 彪流 All rights reserved.</p>
+    </footer>
+</body>
+</html>
